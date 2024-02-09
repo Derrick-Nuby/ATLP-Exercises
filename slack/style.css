@@ -1,1 +1,67 @@
+:root {
+    --ptext:  #525252;
+    --sectext: #0000007a;
+    --bgc: #FFFFFF;
+    --secolor: #7F265B;
+}
 
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: ;
+}
+
+a {
+    color: #7F265B;
+}
+
+.logincenter {
+    display: flex;
+    /* gap: 40px; */
+    /* margin: 10px 50px; */
+}
+
+.leftlogin {
+    width: 60%;
+}
+
+.rightlogin {
+    width: 40%;
+    border: #7F265B 1px solid;
+    padding: 20px 140px;
+}
+
+h1 {
+    color: var(--ptext);
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#see {
+    margin-top: 6px;
+}
+
+.gsign {
+    border: 1px solid var(--ptext);
+    border-radius: 5px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.gsign p {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.line {
+    display: inline-block;
+    width: 50px;
+    height: 10px;
+    background-color: var(--secolor);
+}
+.inline {
+    display: inline;
+}
