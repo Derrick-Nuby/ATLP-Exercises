@@ -18,12 +18,14 @@ a {
 
 .logincenter {
     display: flex;
+    height: 100vh;
     /* gap: 40px; */
     /* margin: 10px 50px; */
 }
 
 .leftlogin {
     width: 60%;
+    background-image: url("./images/main.png");
 }
 
 .rightlogin {
