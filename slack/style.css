@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 :root {
     --ptext:  #525252;
     --sectext: #0000007a;
@@ -9,7 +11,8 @@ body {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: ;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
 }
 
 a {
@@ -26,11 +29,25 @@ a {
 .leftlogin {
     width: 60%;
     background-image: url("./images/main.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0px;
+}
+
+
+.leftlogin > p, h2 {
+    padding: none;
+    margin: none;
+    color: var(--secolor);
 }
 
 .rightlogin {
     width: 40%;
-    border: #7F265B 1px solid;
     padding: 20px 140px;
 }
 
@@ -47,13 +64,18 @@ h1 {
 .gsign {
     border: 1px solid var(--ptext);
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
     padding: 0px;
-    margin: 0px;
+    margin-bottom: 20px;
 }
 
 .gsign p {
     padding: 0px;
     margin: 0px;
+    font-size: 14px;
 }
 
 
@@ -64,6 +86,42 @@ h1 {
     height: 10px;
     background-color: var(--secolor);
 }
-.inline {
-    display: inline;
+#inline {
+    font-size: 14px;
+}
+
+label {
+    display: block;
+    margin-top: 18px;
+}
+
+input {
+    font-size: 18px;
+    padding: 4px 8px;
+    outline: none;
+    width: 100%;
+}
+
+.onelign {
+    display: flex;
+}
+
+button {
+    font-size: 18px;
+    background-color: var(--secolor);
+    border: none;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 8px;
+}
+
+.center {
+    text-align: center;
+}
+
+.rightlogin > img {
+    height: 50px;
+    margin-top: 50px;
 }
